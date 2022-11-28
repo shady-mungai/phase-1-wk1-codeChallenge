@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>NET SALARY CALCULATOR</h1>
+    <br>
+    <br>
+    
+    <label for="basicSalary">BASIC SALARY</label>
+    <input type="number" id="basicSalary">
+    <br>
+    <br>
+    <br>
+    <label for="benefits">BENEFITS</label>
+    <input type="number" id="benefits">
+    <br>
+    <br>
+    <button onclick="calculateNetSalary()">Calculate Net Salary</button>
+    <div>
+        <h2 id="gross"></h2>
+        <h2 id="taxPayable"></h2>
+        <h2 id="NHIFdeductions"></h2>
+        <h2 id="NSSFdeductions"></h2>
+        <br>
+        <br>
+        <h1 id="netSalary"></h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
