@@ -6,6 +6,29 @@ let NetSalary;
 let grossSalary;
 let insuranceRelief;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let personalRelief = 2400;
 function calculateNetSalary() {
   //first function that
