@@ -4,6 +4,12 @@
 This program uses a range of salary values to calculate an individual's Net Salary.The program prompts a user to input his/her basic salary,which is stored in a variable `basicSalary` .The set range of salary values are from the (KRA,NHIF and NSSF) which determine an individual's total deductions.
 
 ## Project set-up
+
+The program is linked to a HTML file.
+To use the program,run the program live to a web page
+
+
+### Functionability of the program
 The program is mainly operated by use of functions.The first function `calculateNetSalary()`is the main function used to calculate net Salary.Within the function `calculateNetSalary()`there are other functions `calculateTaxPayable()` , `calculateNHIFdeductions()` , `calculateNSSFdeductions()` 
 
 Within the function `calculateTaxPayable()` there are `else if` statements that hold the set range of basic salary and provide different `percentages` so as to determine (tax Payable) for a certain which is stored in a variable `NetSalary`.

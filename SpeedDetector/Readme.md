@@ -5,7 +5,12 @@
 This program checks whether drivers are driving above the set speed limit.The program award drivers demerit points for every 5km/h above the speed limit.It also suspends licenses for drivers with or more than 12 demerit points.
 
 ## Project set-up
-program uses a users input of speed of car.If the driver is driving within the speed limit it outputs `OK`.
+
+The program is linked to a HTML file
+To use the program you should run it live to a web page
+
+### Functionality of the program
+Program uses a users input of speed of car.If the driver is driving within the speed limit it outputs `OK`.
 If driver is above speed limit it uses a formula:
             
             (speedOfCar - speedLimit) / 5)
